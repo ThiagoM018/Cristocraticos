@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #2B2B36;
+}
+
+header{
+    height: 75px;
+    width: 100%;
+    background-color: #1B1DE0;
+
+    border-bottom: 1px solid black;
+
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+ul, li{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    
+
+    text-decoration: none;
+    list-style: none;
+}
+
+#logo{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+
+
+    margin-left: 15px;
+}
+
+.menu li{
+
+    color: #fafafafa;
+
+    border: 1px solid black;    
+    border-radius: 32px;
+
+    background-color: #0A0AE1;
+
+    margin: 5px;
+
+    font-size: 24px;
+    height: 34px;
+    width: 90px;
+
+}
+
+.redes{
+    border: none;
+    border-radius: 100%;
+
+    padding-left: 10px;
+
+}
+
+main{
+    margin: 0px 25%;
+    height: 850px;
+    width: 50%;
+
+    color: #fafafafa;
+    
+    background-color: #002D88;
+
+    h2{
+        text-align: left;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+
+    p{
+        font-style: italic;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 30px 10px;
+    }
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    margin-left: 45px;
+}
+
+.apresentacao img {
+    margin-right: 20px;
+    max-width: 150px;
+    height: auto;
+}
+
+.apresentacao .texto {
+    max-width: 600px;
+}
+
+.apresentacao-reversa {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    margin-left: 45px;
+    flex-direction: row; 
+}
+
+.apresentacao-reversa img {
+    margin-left: 20px; 
+    margin-right: 0; 
+    max-width: 150px;
+    height: auto;
+}
+
+
+
+.apresentacao-reversa .texto {
+    max-width: 600px;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #1e1e27;
+    color: #fafafafa;
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid black;
+}
